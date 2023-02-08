@@ -1,0 +1,63 @@
+:root {
+  /*Tan*/
+  /*#B68D40*/
+
+  /*Cream*/
+  /*#F4EBD0*/
+
+  /*Charcoal*/
+  /*#07100d*/
+
+  /*Gold*/
+  /*#D6AD60*/
+
+  --max-width: 1100px;
+  --border-radius: 0.85rem;
+  --font-mono: ui-monospace, Menlo, Monaco, monospace;
+
+  --foreground-rgb: 18, 38, 32;
+  --background-start-rgb: 244, 235, 208;
+
+
+  --callout-rgb: 214, 173, 96;
+  --callout-border-rgb: 182, 141, 64;
+  --card-rgb: 214, 173, 96;
+  --card-border-rgb: 182, 141, 64;
+
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 7, 16, 13;
+    --background-start-rgb: 244, 235, 208;
+
+    --callout-rgb: 20, 20, 20;
+    --callout-border-rgb: 108, 108, 108;
+    --card-rgb: 100, 100, 100;
+    --card-border-rgb: 200, 200, 200;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
