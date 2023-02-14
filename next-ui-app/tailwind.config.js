@@ -36,6 +36,11 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      boxShadow: {
+        "card": "5px 5px rgb(0, 0, 0);",
+        "cardD": "5px 5px rgb(255, 255, 255);",
+        "-card": "5px 5px rgb(18, 38, 32);",
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

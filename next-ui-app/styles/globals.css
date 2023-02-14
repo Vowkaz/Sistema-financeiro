@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #07100d0d;
+    border-radius: 5px;
+    border: transparent;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #07100d22;
+  }
+}
+
 
 :root {
   /*Tan*/
@@ -27,8 +48,7 @@
   --callout-rgb: 214, 173, 96;
   --callout-border-rgb: 182, 141, 64;
   --card-rgb: 214, 173, 96;
-  --card-border-rgb: 182, 141, 64;
-
+  --card-border-rgb: 45, 45, 45;
 
 
 }
@@ -42,7 +62,7 @@
     --callout-rgb: 20, 20, 20;
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
+    --card-border-rgb: 0, 0, 0;
   }
 }
 

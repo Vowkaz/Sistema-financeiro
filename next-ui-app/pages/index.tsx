@@ -7,6 +7,7 @@ import styles from '../styles/Home.module.css'
 
 import {Layout} from "@/components/layout"
 import {Icons} from "@/components/icons"
+import Dna from "@/components/ui/dna";
 
 export default function IndexPage() {
   return (
@@ -23,18 +24,17 @@ export default function IndexPage() {
       <main className={styles.main}>
       <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
-          <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
-            Beautifully designed components <br className="hidden sm:inline" />
-            built with Radix UI and Tailwind CSS.
+          <h1 className="text-6xl font-extrabold leading-tight tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl">
+            Go from <br className="hidden sm:inline" />
+            1 to zero.
           </h1>
           <p className="max-w-[700px] text-lg text-slate-700 dark:text-slate-400 sm:text-xl">
-            Praesent feugiat sapien nisi, at tristique odio semper et. Donec rhoncus nisi at ex gravida, id viverra urna tempus. Aliquam gravida a leo nec tincidunt.
+            Manage all your budget processes.
           </p>
         </div>
       </section>
 
       <section className={styles.section}>
-
         <div className={styles.grid}>
           <Link
             href="/dashboard"
